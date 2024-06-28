@@ -7,8 +7,8 @@ public class q18 {
         int n = s.nextInt();
         
         for (int i = 0; i < n; i++) {
-            for (char j = (char)('A'+n-1); j <i; j++) {
-                System.out.print(j);
+            for (char j = (char)('A'+n-1-i); j <='A'+n-1; j++) {
+                System.out.print(j+" ");
             }
             System.out.println();
         }
