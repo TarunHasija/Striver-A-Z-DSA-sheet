@@ -1,17 +1,20 @@
 package recursion;
-
+import java.util.*;
 public class n_to_1 {
-    static void print(int i,int n ){
-        if(n>=i){
+    static void print(int n ){
+        if(n>=1){
             System.out.println(n);
-            print(1, n-1);
+            print(n-1);
         }
         return;
     }
 
     public static void main(String[] args) {
-        int n = 10;
+        System.out.println("Enter value of n ");
+            Scanner s = new Scanner(System.in);
+            int n = s.nextInt();
+            s.close();
 
-        print(1,n);
+        print(n);
     }
 }
