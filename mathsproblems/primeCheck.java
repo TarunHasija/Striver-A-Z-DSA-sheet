@@ -6,7 +6,7 @@ public class primeCheck {
     public static void main(String[] args) {
         System.out.println("Enter value of n ");
         Scanner s = new Scanner(System.in);
-        int n = s.nextInt();
+        int n = s.nextInt();s.close();
 
         if (isPrime(n)) {
             System.out.println(n + " is Prime");

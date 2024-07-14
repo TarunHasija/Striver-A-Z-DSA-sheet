@@ -11,7 +11,7 @@ public class gcd {
     public static void main(String[] args) {
          System.out.println("Enter value of n ");
         Scanner s = new Scanner(System.in);
-        int n1 = s.nextInt();
+        int n1 = s.nextInt();s.close();
         n1 = Math.abs(n1);
         int n2 = s.nextInt();
         n2 = Math.abs(n2);

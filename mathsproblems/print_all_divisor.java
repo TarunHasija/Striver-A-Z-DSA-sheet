@@ -7,7 +7,7 @@ public class print_all_divisor {
     public static void main(String[] args) {
          System.out.println("Enter value of n ");
         Scanner s = new Scanner(System.in);
-        int n = s.nextInt();
+        int n = s.nextInt();s.close();
 
 
         // * using ArrayList for adding value of divisor in the array
