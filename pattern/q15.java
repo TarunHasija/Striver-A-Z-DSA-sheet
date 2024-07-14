@@ -6,7 +6,7 @@ public class q15 {
         System.out.println("Enter value of n ");
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
-
+        s.close();
         for (int i = 0; i < n; i++) {
             for (char j = 'A'; j <= 'A'+(n-1-i); j++) {
                 System.out.print(j);

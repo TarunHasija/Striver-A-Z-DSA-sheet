@@ -7,7 +7,7 @@ public class q10 {
         System.out.println("Enter value of n ");
         Scanner s = new Scanner(System.in);
         int n = s.nextInt();
-
+        s.close();
         for (int i = 0; i <= 2*n-1; i++) {
          int stars = i;
          if(i>n) {
